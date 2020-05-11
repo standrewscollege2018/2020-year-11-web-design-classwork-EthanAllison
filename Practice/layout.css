@@ -1,0 +1,33 @@
+.background {
+  
+
+}
+.banner {
+  margin-left: 42.5%
+
+
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+
+
+}
+.card {
+border: solid 1px black;
+border-radius: 10px;
+
+
+
+}
+
+.card p {
+  margin-left: 15px
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}

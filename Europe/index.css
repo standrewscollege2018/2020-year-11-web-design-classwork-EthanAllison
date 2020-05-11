@@ -1,4 +1,11 @@
+.banner {
+  margin-left: 42.5%;
 
+}
+.banner h1 {
+  font-style: italic;
+
+}
 .col-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
