@@ -1,5 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(26, 47, 63);
+}
+
 .banner {
-  margin-left: 42.5%;
+  text-align: center;
+  background-color: rgb(26, 47, 63);
 
 }
 .banner h1 {
@@ -9,24 +18,32 @@
 .col-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: rgb(50, 147, 168);
+  background-color: rgb(26, 47, 63);
+  height: auto;
 }
 .left-col {
-
+height: 100%
+}
+.right-col {
+  height: 100%
 }
 
-* {
-  padding: 10px;
-  margin: 1px;
 
-}
 
 h1 {
   color: rgb(242, 242, 27);
-  font-style: oblique;
+  font-style: italic;
 }
 
 h2 {
 font-style: italic;
 color: rgb(242, 242, 27);
+}
+
+p {
+  color: white;
+}
+
+li {
+  color: white;
 }

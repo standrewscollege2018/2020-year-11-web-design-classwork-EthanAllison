@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+
+}
+body {
+background-color: rgb(44, 82, 42);
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  padding: 20px;
+  margin: 20px;
+  height: 500px;
+}
+
+.logo {
+  text-align: center;
+
+
+}
+.logo img {
+  width: 100%;
+  height: 30%;
+
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  color: black; ;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.footer-container  {
+ background-color: rgb(50, 120, 12);
+}
+.Home {
+
+}
